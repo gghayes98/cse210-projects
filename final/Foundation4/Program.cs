@@ -1,9 +1,11 @@
+using Foundation4;
 using System;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Foundation4 World!");
+        App app = new App();
+        app.Run();
     }
 }
